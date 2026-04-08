@@ -6,12 +6,7 @@ export default function SpeakerCard({ speaker }: { speaker: Speaker }) {
   return (
     <div className="group">
       {/* Thumbnail */}
-      <a
-        href={speaker.youtubeUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block aspect-video bg-ted-dark rounded overflow-hidden mb-4 relative"
-      >
+      <div className="block aspect-video bg-ted-dark rounded overflow-hidden mb-4 relative">
         <img
           src={thumbnailUrl}
           alt={speaker.talkTitle}
@@ -33,7 +28,7 @@ export default function SpeakerCard({ speaker }: { speaker: Speaker }) {
             {speaker.views} views
           </span>
         )}
-      </a>
+      </div>
 
       {/* Label */}
       <p className="text-xs font-semibold uppercase tracking-wide text-ted-red mb-1">
@@ -42,9 +37,7 @@ export default function SpeakerCard({ speaker }: { speaker: Speaker }) {
 
       {/* Talk title */}
       <h3 className="text-base font-semibold text-ted-black mb-1 group-hover:underline">
-        <a href={speaker.youtubeUrl} target="_blank" rel="noopener noreferrer">
-          {speaker.talkTitle}
-        </a>
+        {speaker.talkTitle}
       </h3>
 
       {/* Speaker name + title */}

@@ -12,7 +12,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
           <span className="bg-ted-red text-white font-extrabold text-lg tracking-tight px-2 py-1 leading-none">
-            TEDx
+            TED<sup className="text-[0.6em] align-super">x</sup>
           </span>
           <span className="text-sm font-medium text-ted-gray hidden sm:inline">
             Salinas

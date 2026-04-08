@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <span className="bg-ted-red text-white font-extrabold text-lg tracking-tight px-2 py-1 leading-none">
-                TEDx
+                TED<sup className="text-[0.6em] align-super">x</sup>
               </span>
               <span className="text-sm font-medium text-white/70">
                 Salinas

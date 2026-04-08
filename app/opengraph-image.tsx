@@ -43,9 +43,11 @@ export default async function Image() {
               padding: "8px 16px",
               letterSpacing: "-1px",
               display: "flex",
+              alignItems: "flex-start",
             }}
           >
-            TEDx
+            <span style={{ display: "flex" }}>TED</span>
+            <span style={{ fontSize: "20px", display: "flex", marginTop: "-2px" }}>x</span>
           </div>
           <span style={{ color: "rgba(255,255,255,0.7)", fontSize: "28px", fontWeight: 300, display: "flex" }}>
             Salinas

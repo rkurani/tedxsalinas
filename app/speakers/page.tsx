@@ -1,10 +1,12 @@
 import SpeakerCard from "@/components/SpeakerCard";
 import { speakers } from "@/lib/speakers";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Speakers - TEDx Salinas",
-  description: "Meet the speakers from TEDx Salinas 2017.",
+  title: "Speakers",
+  description:
+    "Meet the 12 speakers from TEDx Salinas 2017 — entrepreneurs, authors, scientists, and community leaders sharing ideas worth spreading.",
 };
 
 export default function SpeakersPage() {
@@ -27,10 +29,18 @@ export default function SpeakersPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {speakers.map((speaker) => (
               <div key={speaker.id}>
-                <SpeakerCard speaker={speaker} />
+                <Link href={`/speakers/${speaker.id}`}>
+                  <SpeakerCard speaker={speaker} />
+                </Link>
                 <p className="text-sm text-ted-gray leading-relaxed mt-3">
                   {speaker.bio}
                 </p>
+                <Link
+                  href={`/speakers/${speaker.id}`}
+                  className="inline-block mt-2 text-sm font-medium text-ted-red hover:underline"
+                >
+                  View talk &rarr;
+                </Link>
               </div>
             ))}
           </div>
