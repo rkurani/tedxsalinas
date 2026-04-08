@@ -10,9 +10,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "TEDx Salinas",
+  title: {
+    default: "TEDx Salinas",
+    template: "%s | TEDx Salinas",
+  },
   description:
     "Independently organized TED event bringing together game changers and global thinkers in Salinas, California.",
+  metadataBase: new URL("https://tedxsalinas.com"),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "TEDx Salinas",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
