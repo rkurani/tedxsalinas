@@ -52,25 +52,24 @@ export default function AboutPage() {
               Our Mission
             </p>
             <h2 className="text-2xl font-bold text-ted-black mb-4">
-              Salinas is more than its stereotype
+              Voices from the valley
             </h2>
             <p className="text-ted-gray leading-relaxed mb-4">
-              Salinas is a place full of rich history, agriculture, literature,
-              and incredible community members. What the rest of the world sees
-              though, is its struggles with poverty, homelessness, and gang
-              violence.
+              Salinas sits at the heart of one of the most productive
+              agricultural regions on earth. It&apos;s the birthplace of John
+              Steinbeck, a hub for innovation in food and sustainability, and
+              home to a community that has always built things that matter.
             </p>
             <p className="text-ted-gray leading-relaxed mb-4">
-              TED and TEDx are known for their ability to bring together
-              communities of incredible game changers and global thinkers, and
-              this is something that Salinas truly needs to show the world that
-              it is so much more than its negative stereotype.
+              TEDx Salinas was created to amplify the voices already here —
+              the entrepreneurs, scientists, artists, and activists doing
+              remarkable work in and around the valley.
             </p>
             <p className="text-ted-gray leading-relaxed">
-              TEDx Salinas brought together 14 remarkable speakers from diverse
-              backgrounds — academics, bestselling authors, entrepreneurs, and
-              musicians — many from the local community, to share their ideas,
-              stories, and visions for a better world.
+              The inaugural event brought together 14 speakers from diverse
+              backgrounds to share ideas on stage at the Steinbeck Institute
+              of Art &amp; Culture, connecting Silicon Valley innovation with
+              Salinas Valley agriculture.
             </p>
           </div>
 

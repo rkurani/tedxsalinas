@@ -144,5 +144,5 @@ export const eventInfo = {
   venue: "Santa Lucia Ballroom",
   address: "940 North Main Street, Salinas, CA 93906",
   description:
-    "Salinas is a place full of rich history, agriculture, literature, and incredible community members. What the rest of the world sees though, is its struggles with poverty, homelessness, and gang violence. TED and TEDx are known for their ability to bring together communities of incredible game changers and global thinkers, and this is something that Salinas truly needs to show the world that it is so much more than its negative stereotype.",
+    "Salinas is the heart of one of the most productive agricultural regions on earth, the birthplace of John Steinbeck, and home to a community of builders, growers, and dreamers. TEDx Salinas brought together 12 of those voices — entrepreneurs, scientists, artists, and activists — to share the ideas shaping the future of this valley and beyond.",
 };

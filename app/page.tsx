@@ -16,7 +16,7 @@ export default function Home() {
               About the Event
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-ted-black mb-6">
-              More than a stereotype
+              The Salinas Valley
             </h2>
             <p className="text-lg text-ted-gray leading-relaxed">
               {eventInfo.description}
