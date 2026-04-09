@@ -16,7 +16,7 @@ export const speakers: Speaker[] = [
     name: "Ravi Kurani",
     talkTitle: "How this ex-pool boy is changing water",
     title: "CEO of Sutro",
-    bio: "Ravi Kurani is an entrepreneur with a background in sustainable business. He founded Sutro, a startup creating a platform around water monitoring and evaluation. Ravi holds engineering and MBA degrees, and his work sits at the intersection of hardware, software, and environmental sustainability — making water quality data accessible and actionable for communities around the world.",
+    bio: "Ravi Kurani is an entrepreneur with a background in sustainable business. He founded Sutro, a startup creating a platform around water monitoring and evaluation. Ravi holds engineering and MBA degrees, and his work sits at the intersection of hardware, software, and environmental sustainability - making water quality data accessible and actionable for communities around the world.",
     youtubeUrl: "https://www.youtube.com/watch?v=CwuJnr-iWcY",
     videoId: "CwuJnr-iWcY",
     views: "13K",
@@ -104,7 +104,7 @@ export const speakers: Speaker[] = [
   {
     id: "david-westrick",
     name: "David Westrick",
-    talkTitle: "Serving and Loving Mankind — A Police Chief's Perspective",
+    talkTitle: "Serving and Loving Mankind - A Police Chief's Perspective",
     title: "Chief of Police, Hollister Police Department",
     bio: "David Westrick has served as Chief of Police at the Hollister Police Department since 2013. His career spans roles as journalist, detective, gang officer, and various police leadership positions. He shares his perspective on community policing and the importance of serving and loving the communities that law enforcement officers are sworn to protect.",
     youtubeUrl: "https://www.youtube.com/watch?v=9h7Xh3FyODE",
@@ -144,5 +144,5 @@ export const eventInfo = {
   venue: "Santa Lucia Ballroom",
   address: "940 North Main Street, Salinas, CA 93906",
   description:
-    "Salinas is the heart of one of the most productive agricultural regions on earth, the birthplace of John Steinbeck, and home to a community of builders, growers, and dreamers. TEDx Salinas brought together 12 of those voices — entrepreneurs, scientists, artists, and activists — to share the ideas shaping the future of this valley and beyond.",
+    "Salinas is the heart of one of the most productive agricultural regions on earth, the birthplace of John Steinbeck, and home to a community of builders, growers, and dreamers. TEDx Salinas brought together 12 of those voices - entrepreneurs, scientists, artists, and activists - to share the ideas shaping the future of this valley and beyond.",
 };

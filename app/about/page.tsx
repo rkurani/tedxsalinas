@@ -61,7 +61,7 @@ export default function AboutPage() {
               home to a community that has always built things that matter.
             </p>
             <p className="text-ted-gray leading-relaxed mb-4">
-              TEDx Salinas was created to amplify the voices already here —
+              TEDx Salinas was created to amplify the voices already here -
               the entrepreneurs, scientists, artists, and activists doing
               remarkable work in and around the valley.
             </p>
@@ -85,7 +85,7 @@ export default function AboutPage() {
               TEDx Salinas was organized by Michelle Nicole Serna, a speaker,
               activist, and organizer from Salinas. She gave her first TEDx talk
               at 16, her second at 17, and executive produced her first TEDx at
-              18 — making TEDx Salinas one of the youngest-organized TEDx events
+              18 - making TEDx Salinas one of the youngest-organized TEDx events
               in the country.
             </p>
             <p className="text-ted-gray leading-relaxed">
@@ -120,7 +120,7 @@ export default function AboutPage() {
                   A young, local dynamo is behind the new TEDx Salinas
                 </h3>
                 <p className="text-sm text-ted-gray">
-                  By Walter Ryce — A profile of 19-year-old organizer Michelle
+                  By Walter Ryce - A profile of 19-year-old organizer Michelle
                   Serna and how she brought the first-ever TEDx event to
                   Salinas.
                 </p>
@@ -136,7 +136,7 @@ export default function AboutPage() {
                   Hacking the Red Circle Podcast
                 </p>
                 <h3 className="text-lg font-semibold text-ted-black group-hover:text-ted-red transition-colors mb-2">
-                  TEDxSalinas — Michelle Serna
+                  TEDxSalinas - Michelle Serna
                 </h3>
                 <p className="text-sm text-ted-gray">
                   Interview with Michelle Serna about organizing TEDxSalinas and
@@ -152,7 +152,7 @@ export default function AboutPage() {
               >
                 <p className="text-xs text-ted-gray mb-2">TED.com</p>
                 <h3 className="text-lg font-semibold text-ted-black group-hover:text-ted-red transition-colors mb-2">
-                  TEDxSalinas — Official Event Page
+                  TEDxSalinas - Official Event Page
                 </h3>
                 <p className="text-sm text-ted-gray">
                   The official TED listing for TEDxSalinas with the full speaker

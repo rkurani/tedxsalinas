@@ -18,7 +18,7 @@ export async function generateMetadata({
   if (!speaker) return {};
 
   return {
-    title: `${speaker.name} — ${speaker.talkTitle}`,
+    title: `${speaker.name} - ${speaker.talkTitle}`,
     description: speaker.bio,
     openGraph: {
       type: "article",
@@ -49,7 +49,7 @@ export default async function SpeakerPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
-    name: `${speaker.talkTitle} — ${speaker.name} | TEDx Salinas`,
+    name: `${speaker.talkTitle} - ${speaker.name} | TEDx Salinas`,
     description: speaker.bio,
     startDate: "2017-02-25T10:00:00-08:00",
     endDate: "2017-02-25T18:00:00-08:00",

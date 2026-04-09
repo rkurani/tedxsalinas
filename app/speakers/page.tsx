@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Speakers",
   description:
-    "Meet the 12 speakers from TEDx Salinas 2017 — entrepreneurs, authors, scientists, and community leaders sharing ideas worth spreading.",
+    "Meet the 12 speakers from TEDx Salinas 2017 - entrepreneurs, authors, scientists, and community leaders sharing ideas worth spreading.",
 };
 
 export default function SpeakersPage() {

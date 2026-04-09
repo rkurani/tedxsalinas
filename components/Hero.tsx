@@ -33,7 +33,7 @@ export default function Hero() {
             {/* TEDx badge */}
             <div className="flex items-center gap-3 mb-8">
               <span className="bg-ted-red text-white font-extrabold text-2xl tracking-tight px-3 py-1.5 leading-none">
-                TED<sup className="text-[0.6em] align-super">x</sup>
+                TED<span className="text-[0.65em] relative -top-[0.15em]">x</span>
               </span>
               <span className="text-xl font-light text-white/80">Salinas</span>
             </div>
