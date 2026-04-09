@@ -10,13 +10,12 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white border-b border-ted-border">
       <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
-          <span className="bg-ted-red text-white font-extrabold text-lg tracking-tight px-2 py-1 leading-none">
-            TED<span className="text-[0.65em] relative -top-[0.15em]">x</span>
-          </span>
-          <span className="text-sm font-medium text-ted-gray hidden sm:inline">
-            Salinas
-          </span>
+        <Link href="/">
+          <img
+            src="/images/logo-black.png"
+            alt="TEDx Salinas"
+            className="h-8"
+          />
         </Link>
 
         {/* Desktop nav */}

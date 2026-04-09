@@ -30,12 +30,13 @@ export default function Hero() {
       <div className="relative h-full flex items-end">
         <div className="max-w-[1200px] mx-auto px-6 pb-16 md:pb-24 w-full">
           <div className="max-w-2xl">
-            {/* TEDx badge */}
-            <div className="flex items-center gap-3 mb-8">
-              <span className="bg-ted-red text-white font-extrabold text-2xl tracking-tight px-3 py-1.5 leading-none">
-                TED<span className="text-[0.65em] relative -top-[0.15em]">x</span>
-              </span>
-              <span className="text-xl font-light text-white/80">Salinas</span>
+            {/* Logo */}
+            <div className="mb-8">
+              <img
+                src="/images/logo-white.png"
+                alt="TEDx Salinas"
+                className="h-10 md:h-12"
+              />
             </div>
 
             {/* Headline */}

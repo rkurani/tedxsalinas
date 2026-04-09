@@ -7,13 +7,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-6">
-              <span className="bg-ted-red text-white font-extrabold text-lg tracking-tight px-2 py-1 leading-none">
-                TED<span className="text-[0.65em] relative -top-[0.15em]">x</span>
-              </span>
-              <span className="text-sm font-medium text-white/70">
-                Salinas
-              </span>
+            <div className="mb-6">
+              <img
+                src="/images/logo-white.png"
+                alt="TEDx Salinas"
+                className="h-8"
+              />
             </div>
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
               Independently organized TED event bringing together game changers
